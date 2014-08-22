@@ -1,6 +1,6 @@
 ﻿# TCP forwarding Pentration Testing 
 ##Description
-This program is designed to forwarding TCP and ICMP packet using winpcap sending eth packet. When a TCP or ICMP packet arrive. The program will change the IP and ETH header of the packet and resend it to the internet. 
+This program is designed to forwarding TCP and ICMP packet using winpcap sending eth packet. When a TCP or ICMP packet arrive. The program will change the IP and ETH header of the packet and resend it to the internet. And receiving the response form the server, change the packet, send it to the original sender.
 ##Dependence
 *	Windows only
 *	Winpcap driver 4.1.2 is required.
